@@ -73,19 +73,22 @@
         -   To identify and remove possible multicollinearities amoung features P-factor, VIF, RFE were looked into. 
         -   The model estimate were repeated for 4 runs and in each run a collinear feature with high P/VIF/RFE is removed to get the final model
         -   The final model estimate is shown below
-- OLS Model
+- OLS Model:
 
-     *![Book logo](/2018model.PNG)*![Book logo](/2019model.PNG)
+     *![Book logo](/2018model.PNG)
+     *![Book logo](/2019model.PNG)
 
-- VIF & RFE analysis
+- VIF & RFE analysis:
 
     *![Book logo](/vifmodel.PNG)*![Book logo](/rfemodel.PNG)
     
-- R2 Score & Residual plot
+- R2 Score & Residual plot:
 - 
-    *![Book logo](/r2score.PNG)*![Book logo](/predresd.PNG)
+    *![Book logo](/r2score.PNG)
+    *![Book logo](/predresd.PNG)
     
-- Test data Predictions
+- Test data Predictions:
+
   *![Book logo](/pred2018.PNG)
   *![Book logo](/pred2019.PNG)
   
