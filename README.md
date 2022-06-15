@@ -61,6 +61,7 @@
     
 - From the heatmap we can see that "temp" & "atemp" are highly correlated features. "temp" feature shall be dropped
 - Similarly "hum", "fall" were also correlated with "atemp", which were confirmed by VIF function and elimiated one by one.
+    *![Book logo](/heatmap2.PNG)
 
 ## Model_Estimate
 - Conclusion 1 from the analysis
