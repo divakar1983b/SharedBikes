@@ -93,7 +93,7 @@
   *![Book logo](/pred2019.PNG)
   
 ## Conclusion
-- From the above models and prediction we can see that 
+   -   From the above models and prediction we can see that 
         - "cnt" target variable can be predicted with
             -   "atemp", "summer", "winter" & "mist"
             -   "atemp" had the maximum positive influence and correlation on the shared bike demand
@@ -104,5 +104,5 @@
         - For the year 2019
             -   Model predictions are good with R2 value for train and test @ 0.667 and 0.55, but not as good as year 2018
             -   Some unknown factor had an effect in increasing the demand because of which the R2 value had decreased
-            -   
+ 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
