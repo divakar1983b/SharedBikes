@@ -24,19 +24,21 @@
 ## Data_Exploration
 -  Variables
     -   From the dataset "day.csv", we have the datas for "instant", "dteday", "season", "yr", "mnth", "holiday", "weekday", "workingday", "weathersit", "temp",    "atemp", "hum", "windspeed", "causual", "registered", "cnt". 
-  -   "cnt" is our target variable for which the regression model needs to be built
-  -   "temp", "atemp", "hum", "windspeed" are the continuous variables
-  -   "holiday", "weekday", "workingday", "season", "weathersit", "mnth", "yr" are categorical variables
-  -   "instant", "dteday", "casual", "registered" shall be dropped due to low importance 
-  -   dummy variables for "weathersit" feature shall be created with first drop
-  -   dummy variables for "season" feature shall be created with first drop
+    -   "cnt" is our target variable for which the regression model needs to be built
+    -   "temp", "atemp", "hum", "windspeed" are the continuous variables
+    -   "holiday", "weekday", "workingday", "season", "weathersit", "mnth", "yr" are categorical variables
+    -   "instant", "dteday" shall be dropped due to low relavance to the model 
+    -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
+    -   dummy variables for "weathersit" feature shall be created with first drop
+    -   dummy variables for "season" feature shall be created with first drop
 - Outlier Removal
-  -   Outliers and Multicollinearity shall be understood pair plots and Box plot of different features
--   PairPlot of Continuous Variables:
+    -   Outliers and Multicollinearity shall be understood from pair plots and Box plot of different features
+    -   PairPlot of Continuous Variables:
 *![Book logo](/PP_BS_YR.png)
-  -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp" feature
-  -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
--   Box plot of different features
+    -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp"
+    -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
+    -   Box plot of different features
+    *![Book logo](/PP_BS_YR.png)
 
 
 ## Multicolinearity
