@@ -67,14 +67,42 @@
 - From the correlation matrix and other plots plotted above, we can clearly see that in the year 2019 the demand was comparitively higher than year 2018.
 - But the factor(feature) which caused the increase in demand in year 2019 compared to year 2018 is perhaps not captured in the available features.
 - In the correlation matrix the gains between the "cnt" and different features are not the same for year 2019 and year 2018, which confirms some unknown factor.
-- For estimating the linear regression model, to get better correlation the data needs to be split for year 2018 and 2019 and proceed with model building.
-- 
-- 
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- For estimating the linear regression model and to get better correlation, the data needs to be split for year 2018 and 2019 and proceed with model building.
+    - Linear regression models for year 2018 and 2019 were estimated separately as follows
+        -   OLS models for year 2018 and year 2019 were estimated separately
+        -   To identify and remove possible multicollinearities amoung features P-factor, VIF, RFE were looked into. 
+        -   The model estimate were repeated for 4 runs and in each run a collinear feature with high P/VIF/RFE is removed to get the final model
+        -   The final model estimate is shown below
+- OLS Model:
 
+     *![Book logo](/2018model.PNG)
+     *![Book logo](/2019model.PNG)
+
+- VIF & RFE analysis:
+
+    *![Book logo](/vifmodel.PNG)*![Book logo](/rfemodel.PNG)
+    
+- R2 Score & Residual plot:
+- 
+    *![Book logo](/r2score.PNG)
+    *![Book logo](/predresd.PNG)
+    
+- Test data Predictions:
+
+  *![Book logo](/pred2018.PNG)
+  *![Book logo](/pred2019.PNG)
+  
 ## Conclusion
-- Provide general information about your project here.
-- What is the background of your project?
+   -   From the above models and prediction we can see that 
+        - "cnt" target variable can be predicted with
+            -   "atemp", "summer", "winter" & "mist"
+            -   "atemp" had the maximum positive influence and correlation on the shared bike demand
+            -   "summer" & "winter" had minimal positive influence on bike demand
+            -   "mist" had minimal negative influence on bike demand
+        - For the year 2018 
+            -   Model prediction are better with R2 value for train and test @ 0.761 and 0.77
+        - For the year 2019
+            -   Model predictions are good with R2 value for train and test @ 0.667 and 0.55, but not as good as year 2018
+            -   Some unknown factor had an effect in increasing the demand because of which the R2 value had decreased
+ 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
