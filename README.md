@@ -64,7 +64,12 @@
     *![Book logo](/heatmap2.PNG)
 
 ## Model_Estimate
-- Conclusion 1 from the analysis
+- From the correlation matrix and other plots plotted above, we can clearly see that in the year 2019 the demand was comparitively higher than year 2018.
+- But the factor(feature) which caused the increase in demand in year 2019 compared to year 2018 is perhaps not captured in the available features.
+- In the correlation matrix the gains between the "cnt" and different features are not the same for year 2019 and year 2018, which confirms some unknown factor.
+- For estimating the linear regression model, to get better correlation the data needs to be split for year 2018 and 2019 and proceed with model building.
+- 
+- 
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
