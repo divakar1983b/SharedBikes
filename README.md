@@ -38,6 +38,7 @@
         -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp"
         -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
     -   Box plot of different features:
+    
     *![Book logo](/seasons.PNG)*![Book logo](/weather.PNG)
 
 
