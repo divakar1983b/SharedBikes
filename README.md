@@ -31,14 +31,14 @@
     -   "casual", "registered", "weekday" shall be dropped due to presence of alternate variable "cnt", "workingday", "holiday"
     -   dummy variables for "weathersit" feature shall be created with first drop
     -   dummy variables for "season" feature shall be created with first drop
-- Outlier Removal
-    -   Outliers and Multicollinearity shall be understood from pair plots and Box plot of different features
+- Correlations and Outliers
+    -   Correlations, Outliers and Multicollinearities can be understood from pair plots,Box plot and heat maps
     -   PairPlot of Continuous Variables:
 *![Book logo](/PP_BS_YR.png)
-    -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp"
-    -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
+        -   From the above pair plot we can see a good relation between "cnt" & "temp"/"atemp"
+        -   Also the "temp" and "atemp" are highly correalated and dropping one of them would prevent multicollinearity in the model.
     -   Box plot of different features
-    *![Book logo](/PP_BS_YR.png)
+    *![Book logo](/seasons.png)(/weather.png)
 
 
 ## Multicolinearity
