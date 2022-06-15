@@ -40,6 +40,14 @@
     -   Box plot of different features:
     
     *![Book logo](/seasons.PNG)*![Book logo](/weather.PNG)
+    
+    *![Book logo](/holiday.PNG)*![Book logo](/workingday.PNG)
+    
+    *![Book logo](/cnt.PNG)*![Book logo](/atemp.PNG)
+    
+    *![Book logo](/hum.PNG)*![Book logo](/windspeed.PNG)
+    
+    *![Book logo](/month.PNG)
 
 
 ## Multicolinearity
